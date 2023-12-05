@@ -60,7 +60,7 @@ height :100vh;
  border-radius: 100px;
 }
 .foto1{
-    width: 30%;
+    width: 50%;
     border-radius: 100%;
 
 }
@@ -181,6 +181,24 @@ height :100vh;
     }
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
     }
-    
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    .curriculo{
+        width: auto;
+        
+    }
+    .referencias{
+        width: auto;
+      
+      
+    }
+    .referencias2{
+        width: auto;
+    }
+    .tituloref{
+      width: auto;
+    }
 }
