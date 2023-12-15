@@ -22,6 +22,7 @@ height :100vh;
     background-color:var(--cor-fundo); 
     color :var(--cor-secundaria); 
 }
+
 .apresentacao {
     padding: 5% 15%;
     display: flex;
@@ -82,12 +83,7 @@ height :100vh;
     color:var(--cor-terciaria);
 
 }
-.curriculo{
-    font-family: var(--fonte-secundaria);
-    padding:10% 0% 0% 25%;
-    font-size: 1.2rem;
-  
-}
+
 .referencias{
     font-family: var(--fonte-secundaria);
     padding: 10% 0% 0% 25%;
@@ -96,7 +92,7 @@ height :100vh;
 }
 .referencias2{
     font-family: var(--fonte-secundaria);
-    padding:10% 0% 0% 25%;
+    padding:5% 0% 0% 25%;
     font-size: 1.4rem;
   
 }
@@ -156,17 +152,17 @@ height :100vh;
 .apresentacao__links__link:hover {
     background-color: #272727;
 }
+
 .rodape{
     color:var(--cor-principal);
     background-color: var(--cor-terciaria);
     padding:20px;
+    margin: auto;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
-
-
-
 }
+
 @media(max-width:1200px){
   body{
     background-color: var(--cor-principal);
@@ -180,25 +176,55 @@ height :100vh;
         justify-content:center;
     }
     .apresentacao{
+        display: flex;
         flex-direction: column-reverse;
         padding: 5%;
     }
+    .apresentacao2{
+        padding: 5%;
+        margin: 2%;
+    }
     .apresentacao__conteudo{
-        width: auto;
+        display: flex;
+        width: 100%;
+        padding: 2%;
+        margin: 10%;
+        text-align:left;
+        
+    }
+    .apresentacao__conteudo2{
+        display: flex;
+        width: 100%;
+        font-size: 1.87rem;
+    font-family: var(--fonte-primaria);
+    padding: 2px;
+        
     }
     .curriculo{
-        width: auto;
+        width: 100%;
+        padding:10% 0% 0% 25%;
+        margin:5px;
         
     }
     .referencias{
-        width: auto;
-      
+        width: 100%;
+        padding: 5%;
+
       
     }
     .referencias2{
-        width: auto;
+      width: 100%;
+      padding: 5%;
+
+        
+        
     }
     .tituloref{
-      width: auto;
+        width: 100%; 
+        padding: 5%;
+    
+    }
+    .foto1{
+        display: block;
     }
 }
