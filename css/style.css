@@ -209,7 +209,7 @@ summary {
     .foto {
         width: 80%;
         max-width: 300px;
-        border-radius: 50%;
+        border-radius: 70%;
         margin-top: 20px;
         justify-content: center;
     }
