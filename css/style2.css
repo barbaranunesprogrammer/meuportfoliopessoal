@@ -21,7 +21,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--cor-fundo);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+        url(../assets/img/1ae3cdbcc3d41d2e5ae45077a8b107a1.jpg);
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 
